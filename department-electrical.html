@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electrical Department</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .faculty img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .faculty p {
+      margin: 10px 0 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table th, table td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    .back-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 15px;
+      background: #0052cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .back-btn:hover {
+      background: #003d99;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Computer Science Department</h1>
+    <h2>Semester-wise Subjects</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Semester</th>
+          <th>Subjects</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mathematics, Introduction to Programming, Digital Logic</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Data Structures, Computer Organization, Operating Systems</td>
+        </tr>
+        <!-- Add more semesters -->
+      </tbody>
+    </table>
+
+    <h2>Faculty Members</h2>
+    <div class="grid">
+      <div class="faculty">
+        <img src="images/faculty1.jpg" alt="Faculty Member 1">
+        <p>Dr. John Doe - Professor</p>
+      </div>
+      <div class="faculty">
+        <img src="images/faculty2.jpg" alt="Faculty Member 2">
+        <p>Ms. Jane Smith - Assistant Professor</p>
+      </div>
+    </div>
+    <a href="index.html" class="back-btn">Back to Home</a>
+  </div>
+</body>
+</html>
